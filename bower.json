@@ -1,0 +1,22 @@
+{
+  "name": "ngvfbootstrap",
+  "description": "Bootstrap for starting an angular based visualforce app",
+  "main": "index.js",
+  "authors": [
+    "Dominic Butler"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-router": "0.3.1"
+  }
+}

@@ -1,0 +1,72 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p24000007sOeCAAU",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p24000007sOeCAAU",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 4
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getCaseFromId",
+            "parameters": [
+                {
+                    "name": "caseID",
+                    "type": "Id"
+                }
+            ],
+            "references": [],
+            "returnType": "Case",
+            "type": null
+        }
+    ],
+    "name": "DisplayCaseController",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "DisplayCaseController",
+        "references": [],
+        "type": "DisplayCaseController"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "caseID",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 9
+            },
+            "modifiers": [],
+            "name": "cases",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

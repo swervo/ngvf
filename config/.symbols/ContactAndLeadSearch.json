@@ -1,0 +1,116 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p2400000D3QWaAAN",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p2400000D3QWaAAN",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 4
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "searchContactsAndLeads",
+            "parameters": [
+                {
+                    "name": "searchClause",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "ContactAndLeadSearch",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "ContactAndLeadSearch",
+        "references": [],
+        "type": "ContactAndLeadSearch"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 69,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "searchClause",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "results",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 9
+            },
+            "modifiers": [],
+            "name": "searchLeads",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 10
+            },
+            "modifiers": [],
+            "name": "searchContacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 13
+            },
+            "modifiers": [],
+            "name": "l",
+            "references": [],
+            "type": "Lead"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 18
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        }
+    ]
+}

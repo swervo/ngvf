@@ -1,0 +1,83 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p2400000D3OkLAAV",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p2400000D3OkLAAV",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 4
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "generateStringArray",
+            "parameters": [
+                {
+                    "name": "num",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "StringArrayTest",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "StringArrayTest",
+        "references": [],
+        "type": "StringArrayTest"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "num",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "myFirstList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 9
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+<apex:component controller="domng_resourceSwitch">
+
+    <!-- CSS -->
+    <apex:stylesheet value="{!URLFOR($Resource.app, 'resources/css/chosen.spinner.css')}" />
+
+    <!-- Fonts -->
+
+    <!-- This will conditionally load the JS files from localhost -->
+    <c:domng_localResources rendered="{!useLocalResources}"/>
+    <c:domng_serverResources rendered="{!NOT(useLocalResources)}"/>
+
+</apex:component>

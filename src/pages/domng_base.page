@@ -1,0 +1,34 @@
+<!--
+We'll be using a standard visualforce page to act as our Master Application
+Container page.
+In order to contain an Angular.js application, the following apex:page tag
+attributes should be set:
+
+    ShowHeader="false"                  // This strips the standard salesforce header
+    Sidebar="false"                         // This disables the left hand sidebar
+    StandardStyleSheets="false" // This disables all of the stylesheets included by salesforce
+    DocType="html-5.0"                  // Sets the doctype to html5
+
+Together, these attributes effectively force visualforce to render a blank page, without any
+visualforce interference. This is crucial to keep VF's on-page js from interfereing with
+Angular's on-page js.
+
+ -->
+
+<apex:page showHeader="false"
+sidebar="false"
+standardStylesheets="false"
+docType="html-5.0"
+>
+
+    <c:domngapp />
+
+    <div>Hello</div>
+
+    <div ng-app="domng" class="container-fluid ui-view-container">
+        <div class="ui-view" id="master-ui-view">Main content {{1 + 2}}</div>
+        <a href="#/apex/first">clickme</a>
+        <div>why is this still here?</div>
+    </div>
+
+</apex:page>

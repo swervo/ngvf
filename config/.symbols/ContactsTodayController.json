@@ -1,0 +1,265 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p2400000BuNhOAAV",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p2400000BuNhOAAV",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 4
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getContactsForToday",
+            "parameters": [],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "ContactsTodayController",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "ContactsTodayController",
+        "references": [],
+        "type": "ContactsTodayController"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "important_contacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "important_ids",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 8
+            },
+            "modifiers": [],
+            "name": "my_tasks",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 9
+            },
+            "modifiers": [],
+            "name": "my_events",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 10
+            },
+            "modifiers": [],
+            "name": "my_cases",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 12
+            },
+            "modifiers": [],
+            "name": "taskContacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 13
+            },
+            "modifiers": [],
+            "name": "t",
+            "references": [],
+            "type": "Task"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 16
+            },
+            "modifiers": [],
+            "name": "task_contacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 18
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 19
+            },
+            "modifiers": [],
+            "name": "t",
+            "references": [],
+            "type": "Task"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 28
+            },
+            "modifiers": [],
+            "name": "eventContacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 29
+            },
+            "modifiers": [],
+            "name": "e",
+            "references": [],
+            "type": "Event"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 33
+            },
+            "modifiers": [],
+            "name": "event_contacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 35
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 36
+            },
+            "modifiers": [],
+            "name": "e",
+            "references": [],
+            "type": "Event"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 46
+            },
+            "modifiers": [],
+            "name": "caseContacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 47
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Case"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "case_contacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 52
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 53
+            },
+            "modifiers": [],
+            "name": "ca",
+            "references": [],
+            "type": "Case"
+        }
+    ]
+}

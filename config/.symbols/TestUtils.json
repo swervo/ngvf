@@ -1,0 +1,357 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p2400000D9MKwAAN",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p2400000D9MKwAAN",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 4
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getStandardTestUser",
+            "parameters": [],
+            "references": [],
+            "returnType": "User",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 15
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getAccount",
+            "parameters": [],
+            "references": [],
+            "returnType": "Account",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 23
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getOpp",
+            "parameters": [
+                {
+                    "name": "doInsert",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "Opportunity",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 35
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getOpp",
+            "parameters": [
+                {
+                    "name": "doInsert",
+                    "type": "Boolean"
+                },
+                {
+                    "name": "a",
+                    "type": "Account"
+                }
+            ],
+            "references": [],
+            "returnType": "Opportunity",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 48
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getNOpportunities",
+            "parameters": [
+                {
+                    "name": "n",
+                    "type": "Integer"
+                },
+                {
+                    "name": "doInsert",
+                    "type": "Boolean"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 60
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getRandomNumber",
+            "parameters": [
+                {
+                    "name": "size",
+                    "type": "Integer"
+                }
+            ],
+            "references": [],
+            "returnType": "Integer",
+            "type": null
+        }
+    ],
+    "name": "TestUtils",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 27,
+            "line": 2
+        },
+        "modifiers": [
+            "public",
+            "testMethod",
+            "with sharing"
+        ],
+        "name": "TestUtils",
+        "references": [],
+        "type": "TestUtils"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 5
+            },
+            "modifiers": [],
+            "name": "unique",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "p",
+            "references": [],
+            "type": "Profile"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 8,
+                "line": 7
+            },
+            "modifiers": [],
+            "name": "u",
+            "references": [],
+            "type": "User"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 16
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 17
+            },
+            "modifiers": [],
+            "name": "unique",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 23
+            },
+            "modifiers": [],
+            "name": "doInsert",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 24
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 25
+            },
+            "modifiers": [],
+            "name": "o",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 35
+            },
+            "modifiers": [],
+            "name": "doInsert",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 61,
+                "line": 35
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 36
+            },
+            "modifiers": [],
+            "name": "o",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 48
+            },
+            "modifiers": [],
+            "name": "n",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 71,
+                "line": 48
+            },
+            "modifiers": [],
+            "name": "doInsert",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 49
+            },
+            "modifiers": [],
+            "name": "a",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "returnList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 60
+            },
+            "modifiers": [],
+            "name": "size",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 61
+            },
+            "modifiers": [],
+            "name": "d",
+            "references": [],
+            "type": "Double"
+        }
+    ]
+}

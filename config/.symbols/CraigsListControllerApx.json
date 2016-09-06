@@ -1,0 +1,72 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p2400000D3YjbAAF",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p2400000D3YjbAAF",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 4
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getUserProfile",
+            "parameters": [
+                {
+                    "name": "userId",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "CraigsListControllerApx",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "CraigsListControllerApx",
+        "references": [],
+        "type": "CraigsListControllerApx"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "userId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 8
+            },
+            "modifiers": [],
+            "name": "userList",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

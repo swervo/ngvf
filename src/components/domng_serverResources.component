@@ -1,0 +1,6 @@
+<apex:component >
+
+<!-- ANGULAR -->
+    <apex:includeScript value="{!URLFOR($Resource.domng, '/resources/lib/angular.js')}"/>
+
+</apex:component>

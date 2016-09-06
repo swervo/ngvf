@@ -1,0 +1,16 @@
+{
+    "projectName": "domng",
+    "username": "swervo@papersnail.co.uk",
+    "id": "6ff5cd00-7434-11e6-a905-57156dbfd08c",
+    "namespace": "",
+    "environment": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "workspace": "/Users/dominic.butler/Documents/mavensmate",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "StaticResource"
+    ]
+}

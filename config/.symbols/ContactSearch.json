@@ -1,0 +1,87 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p2400000D3QGSAA3",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01p2400000D3QGSAA3",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 4
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "searchForContacts",
+            "parameters": [
+                {
+                    "name": "lastName",
+                    "type": "String"
+                },
+                {
+                    "name": "postCode",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "ContactSearch",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "ContactSearch",
+        "references": [],
+        "type": "ContactSearch"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 58,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "lastName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 75,
+                "line": 4
+            },
+            "modifiers": [],
+            "name": "postCode",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "results",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

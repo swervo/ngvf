@@ -1,0 +1,2465 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p2400000D9MKzAAN",
+    "innerClasses": [
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "picklistValues",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 8
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "label",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 9
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "value",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 7
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "picklistValues",
+                "references": [],
+                "type": "picklistValues"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "Select2Data",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [
+                        {
+                            "name": "TestVisible"
+                        }
+                    ],
+                    "location": {
+                        "column": 23,
+                        "line": 13
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "id",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [
+                        {
+                            "name": "TestVisible"
+                        }
+                    ],
+                    "location": {
+                        "column": 23,
+                        "line": 14
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "name",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [
+                        {
+                            "name": "TestVisible"
+                        }
+                    ],
+                    "location": {
+                        "column": 23,
+                        "line": 15
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "searchName",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 12
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "Select2Data",
+                "references": [],
+                "type": "Select2Data"
+            },
+            "variables": []
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "QueryString",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [
+                        {
+                            "name": "TestVisible"
+                        }
+                    ],
+                    "location": {
+                        "column": 23,
+                        "line": 19
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "selectClause",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [
+                        {
+                            "name": "TestVisible"
+                        }
+                    ],
+                    "location": {
+                        "column": 23,
+                        "line": 20
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "fromClause",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 18
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "QueryString",
+                "references": [],
+                "type": "QueryString"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [],
+    "key": "01p2400000D9MKzAAN",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 23
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "makeError",
+            "parameters": [
+                {
+                    "name": "message",
+                    "type": "String"
+                },
+                {
+                    "name": "errorCode",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 35
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "writeFields",
+            "parameters": [
+                {
+                    "name": "objtype",
+                    "type": "String"
+                },
+                {
+                    "name": "obj",
+                    "type": "SObject"
+                },
+                {
+                    "name": "fields",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ],
+            "location": {
+                "column": 23,
+                "line": 93
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "describe",
+            "parameters": [
+                {
+                    "name": "objtype",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ],
+            "location": {
+                "column": 23,
+                "line": 134
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "describeFieldSet",
+            "parameters": [
+                {
+                    "name": "objtype",
+                    "type": "String"
+                },
+                {
+                    "name": "fieldSetName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ],
+            "location": {
+                "column": 23,
+                "line": 142
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "describeField",
+            "parameters": [
+                {
+                    "name": "objtype",
+                    "type": "String"
+                },
+                {
+                    "name": "fieldName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ],
+            "location": {
+                "column": 23,
+                "line": 150
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "soqlFromFieldSet",
+            "parameters": [
+                {
+                    "name": "objtype",
+                    "type": "String"
+                },
+                {
+                    "name": "fieldSetName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ],
+            "location": {
+                "column": 23,
+                "line": 168
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "queryFromFieldSet",
+            "parameters": [
+                {
+                    "name": "id",
+                    "type": "String"
+                },
+                {
+                    "name": "fieldSetName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ],
+            "location": {
+                "column": 23,
+                "line": 185
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getPicklistValues",
+            "parameters": [
+                {
+                    "name": "objtype",
+                    "type": "String"
+                },
+                {
+                    "name": "fieldName",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ],
+            "location": {
+                "column": 23,
+                "line": 201
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getQueryResultsAsSelect2Data",
+            "parameters": [
+                {
+                    "name": "soql",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ],
+            "location": {
+                "column": 23,
+                "line": 225
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "sObjectKlone",
+            "parameters": [
+                {
+                    "name": "iId",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ],
+            "location": {
+                "column": 23,
+                "line": 252
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getObjType",
+            "parameters": [
+                {
+                    "name": "Id",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ],
+            "location": {
+                "column": 23,
+                "line": 263
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "create",
+            "parameters": [
+                {
+                    "name": "objtype",
+                    "type": "String"
+                },
+                {
+                    "name": "fields",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ],
+            "location": {
+                "column": 23,
+                "line": 302
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "bulkCreate",
+            "parameters": [
+                {
+                    "name": "objtype",
+                    "type": "String"
+                },
+                {
+                    "name": "fields",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ],
+            "location": {
+                "column": 37,
+                "line": 376
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "bulkUpdate",
+            "parameters": [
+                {
+                    "name": "objtype",
+                    "type": "String"
+                },
+                {
+                    "name": "jsonObjArr",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ],
+            "location": {
+                "column": 23,
+                "line": 409
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "retrieve",
+            "parameters": [
+                {
+                    "name": "objtype",
+                    "type": "String"
+                },
+                {
+                    "name": "id",
+                    "type": "String"
+                },
+                {
+                    "name": "fieldlist",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ],
+            "location": {
+                "column": 23,
+                "line": 434
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "upser",
+            "parameters": [
+                {
+                    "name": "objtype",
+                    "type": "String"
+                },
+                {
+                    "name": "externalIdField",
+                    "type": "String"
+                },
+                {
+                    "name": "externalId",
+                    "type": "String"
+                },
+                {
+                    "name": "fields",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ],
+            "location": {
+                "column": 23,
+                "line": 454
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "updat",
+            "parameters": [
+                {
+                    "name": "objtype",
+                    "type": "String"
+                },
+                {
+                    "name": "id",
+                    "type": "String"
+                },
+                {
+                    "name": "fields",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ],
+            "location": {
+                "column": 23,
+                "line": 487
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "del",
+            "parameters": [
+                {
+                    "name": "objtype",
+                    "type": "String"
+                },
+                {
+                    "name": "id",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ],
+            "location": {
+                "column": 23,
+                "line": 512
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "query",
+            "parameters": [
+                {
+                    "name": "soql",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ],
+            "location": {
+                "column": 23,
+                "line": 529
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "search",
+            "parameters": [
+                {
+                    "name": "sosl",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        }
+    ],
+    "name": "ngForceController",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 1
+        },
+        "modifiers": [
+            "global"
+        ],
+        "name": "ngForceController",
+        "references": [],
+        "type": "ngForceController"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 23
+            },
+            "modifiers": [],
+            "name": "message",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 57,
+                "line": 23
+            },
+            "modifiers": [],
+            "name": "errorCode",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 24
+            },
+            "modifiers": [],
+            "name": "gen",
+            "references": [],
+            "type": "JSONGenerator"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 35
+            },
+            "modifiers": [],
+            "name": "objtype",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 35
+            },
+            "modifiers": [],
+            "name": "obj",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 72,
+                "line": 35
+            },
+            "modifiers": [],
+            "name": "fields",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 36
+            },
+            "modifiers": [],
+            "name": "fieldMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 44
+            },
+            "modifiers": [],
+            "name": "targetType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 46
+            },
+            "modifiers": [],
+            "name": "targetFields",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 49
+            },
+            "modifiers": [],
+            "name": "key",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 55
+            },
+            "modifiers": [],
+            "name": "value",
+            "references": [],
+            "type": "Object"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 56
+            },
+            "modifiers": [],
+            "name": "valueType",
+            "references": [],
+            "type": "DisplayType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 60
+            },
+            "modifiers": [],
+            "name": "svalue",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 93
+            },
+            "modifiers": [],
+            "name": "objtype",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 95
+            },
+            "modifiers": [],
+            "name": "targetType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 100
+            },
+            "modifiers": [],
+            "name": "sobjResult",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 102
+            },
+            "modifiers": [],
+            "name": "fieldMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 104
+            },
+            "modifiers": [],
+            "name": "fields",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 105
+            },
+            "modifiers": [],
+            "name": "key",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 106
+            },
+            "modifiers": [],
+            "name": "descField",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 107
+            },
+            "modifiers": [],
+            "name": "field",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 112
+            },
+            "modifiers": [],
+            "name": "references",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 113
+            },
+            "modifiers": [],
+            "name": "t",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 123
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 134
+            },
+            "modifiers": [],
+            "name": "objtype",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 63,
+                "line": 134
+            },
+            "modifiers": [],
+            "name": "fieldSetName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 135
+            },
+            "modifiers": [],
+            "name": "token",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 136
+            },
+            "modifiers": [],
+            "name": "dr",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 137
+            },
+            "modifiers": [],
+            "name": "FsMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 142
+            },
+            "modifiers": [],
+            "name": "objtype",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 142
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 143
+            },
+            "modifiers": [],
+            "name": "token",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 144
+            },
+            "modifiers": [],
+            "name": "dr",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 145
+            },
+            "modifiers": [],
+            "name": "fieldDescribe",
+            "references": [],
+            "type": "DescribeFieldResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 150
+            },
+            "modifiers": [],
+            "name": "objtype",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 63,
+                "line": 150
+            },
+            "modifiers": [],
+            "name": "fieldSetName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 151
+            },
+            "modifiers": [],
+            "name": "token",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 152
+            },
+            "modifiers": [],
+            "name": "dr",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 153
+            },
+            "modifiers": [],
+            "name": "FsMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 154
+            },
+            "modifiers": [],
+            "name": "selectClause",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 155
+            },
+            "modifiers": [],
+            "name": "querySet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 157
+            },
+            "modifiers": [],
+            "name": "f",
+            "references": [],
+            "type": "FieldSetMember"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 160
+            },
+            "modifiers": [],
+            "name": "fromClause",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 161
+            },
+            "modifiers": [],
+            "name": "qs",
+            "references": [],
+            "type": "QueryString"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 168
+            },
+            "modifiers": [],
+            "name": "id",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 168
+            },
+            "modifiers": [],
+            "name": "fieldSetName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 6,
+                "line": 169
+            },
+            "modifiers": [],
+            "name": "objId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 170
+            },
+            "modifiers": [],
+            "name": "token",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 171
+            },
+            "modifiers": [],
+            "name": "dr",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 172
+            },
+            "modifiers": [],
+            "name": "FsMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 173
+            },
+            "modifiers": [],
+            "name": "queryString",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 174
+            },
+            "modifiers": [],
+            "name": "querySet",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 176
+            },
+            "modifiers": [],
+            "name": "f",
+            "references": [],
+            "type": "FieldSetMember"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 185
+            },
+            "modifiers": [],
+            "name": "objtype",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 64,
+                "line": 185
+            },
+            "modifiers": [],
+            "name": "fieldName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 186
+            },
+            "modifiers": [],
+            "name": "token",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 187
+            },
+            "modifiers": [],
+            "name": "dr",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 188
+            },
+            "modifiers": [],
+            "name": "field_map",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 189
+            },
+            "modifiers": [],
+            "name": "pickListValues",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 190
+            },
+            "modifiers": [],
+            "name": "options",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 191
+            },
+            "modifiers": [],
+            "name": "plv",
+            "references": [],
+            "type": "PicklistEntry"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 192
+            },
+            "modifiers": [],
+            "name": "pv",
+            "references": [],
+            "type": "picklistValues"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 59,
+                "line": 201
+            },
+            "modifiers": [],
+            "name": "soql",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 202
+            },
+            "modifiers": [],
+            "name": "records",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 213
+            },
+            "modifiers": [],
+            "name": "sData",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 214
+            },
+            "modifiers": [],
+            "name": "r",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 215
+            },
+            "modifiers": [],
+            "name": "s",
+            "references": [],
+            "type": "Select2Data"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 225
+            },
+            "modifiers": [],
+            "name": "iId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 6,
+                "line": 226
+            },
+            "modifiers": [],
+            "name": "id",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 227
+            },
+            "modifiers": [],
+            "name": "type",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 228
+            },
+            "modifiers": [],
+            "name": "dr",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 229
+            },
+            "modifiers": [],
+            "name": "fieldMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 230
+            },
+            "modifiers": [],
+            "name": "qs",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 231
+            },
+            "modifiers": [],
+            "name": "querySet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 234
+            },
+            "modifiers": [],
+            "name": "f",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 238
+            },
+            "modifiers": [],
+            "name": "toClone",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 239
+            },
+            "modifiers": [],
+            "name": "cloned",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 240
+            },
+            "modifiers": [],
+            "name": "results",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 252
+            },
+            "modifiers": [],
+            "name": "Id",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 6,
+                "line": 253
+            },
+            "modifiers": [],
+            "name": "objId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 254
+            },
+            "modifiers": [],
+            "name": "token",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 255
+            },
+            "modifiers": [],
+            "name": "dr",
+            "references": [],
+            "type": "DescribeSObjectResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 256
+            },
+            "modifiers": [],
+            "name": "objName",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 257
+            },
+            "modifiers": [],
+            "name": "retObj",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 263
+            },
+            "modifiers": [],
+            "name": "objtype",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 263
+            },
+            "modifiers": [],
+            "name": "fields",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 264
+            },
+            "modifiers": [],
+            "name": "targetType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 269
+            },
+            "modifiers": [],
+            "name": "targetFields",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 271
+            },
+            "modifiers": [],
+            "name": "obj",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 273
+            },
+            "modifiers": [],
+            "name": "fieldMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 275
+            },
+            "modifiers": [],
+            "name": "error",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 283
+            },
+            "modifiers": [],
+            "name": "fieldNames",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 284
+            },
+            "modifiers": [],
+            "name": "field",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 293
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 302
+            },
+            "modifiers": [],
+            "name": "objtype",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 57,
+                "line": 302
+            },
+            "modifiers": [],
+            "name": "fields",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 303
+            },
+            "modifiers": [],
+            "name": "targetType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 304
+            },
+            "modifiers": [],
+            "name": "targetFields",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 309
+            },
+            "modifiers": [],
+            "name": "objs",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 311
+            },
+            "modifiers": [],
+            "name": "incomingFieldJsonObject",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 319
+            },
+            "modifiers": [],
+            "name": "row",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 320
+            },
+            "modifiers": [],
+            "name": "current",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 321
+            },
+            "modifiers": [],
+            "name": "obj",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 322
+            },
+            "modifiers": [],
+            "name": "property",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 347
+            },
+            "modifiers": [],
+            "name": "fieldNames",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 348
+            },
+            "modifiers": [],
+            "name": "field",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 357
+            },
+            "modifiers": [],
+            "name": "rids",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 358
+            },
+            "modifiers": [],
+            "name": "o",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 362
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 55,
+                "line": 376
+            },
+            "modifiers": [],
+            "name": "objtype",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 71,
+                "line": 376
+            },
+            "modifiers": [],
+            "name": "jsonObjArr",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 8,
+                "line": 377
+            },
+            "modifiers": [],
+            "name": "listType",
+            "references": [],
+            "type": "Type"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 382
+            },
+            "modifiers": [],
+            "name": "objs",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 395
+            },
+            "modifiers": [],
+            "name": "rids",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 396
+            },
+            "modifiers": [],
+            "name": "o",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 400
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 409
+            },
+            "modifiers": [],
+            "name": "objtype",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 55,
+                "line": 409
+            },
+            "modifiers": [],
+            "name": "id",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 66,
+                "line": 409
+            },
+            "modifiers": [],
+            "name": "fieldlist",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 410
+            },
+            "modifiers": [],
+            "name": "containsId",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 411
+            },
+            "modifiers": [],
+            "name": "field",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 422
+            },
+            "modifiers": [],
+            "name": "soql",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 423
+            },
+            "modifiers": [],
+            "name": "records",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 434
+            },
+            "modifiers": [],
+            "name": "objtype",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 434
+            },
+            "modifiers": [],
+            "name": "externalIdField",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 76,
+                "line": 434
+            },
+            "modifiers": [],
+            "name": "externalId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 95,
+                "line": 434
+            },
+            "modifiers": [],
+            "name": "fields",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 435
+            },
+            "modifiers": [],
+            "name": "targetType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 437
+            },
+            "modifiers": [],
+            "name": "obj",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 440
+            },
+            "modifiers": [],
+            "name": "fieldMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 442
+            },
+            "modifiers": [],
+            "name": "key",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 446
+            },
+            "modifiers": [],
+            "name": "sobjField",
+            "references": [],
+            "type": "SObjectField"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 454
+            },
+            "modifiers": [],
+            "name": "objtype",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 52,
+                "line": 454
+            },
+            "modifiers": [],
+            "name": "id",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 63,
+                "line": 454
+            },
+            "modifiers": [],
+            "name": "fields",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 455
+            },
+            "modifiers": [],
+            "name": "targetType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 460
+            },
+            "modifiers": [],
+            "name": "obj",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 462
+            },
+            "modifiers": [],
+            "name": "fieldMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 464
+            },
+            "modifiers": [],
+            "name": "error",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 472
+            },
+            "modifiers": [],
+            "name": "fieldNames",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 473
+            },
+            "modifiers": [],
+            "name": "field",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 487
+            },
+            "modifiers": [],
+            "name": "objtype",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 487
+            },
+            "modifiers": [],
+            "name": "id",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 488
+            },
+            "modifiers": [],
+            "name": "targetType",
+            "references": [],
+            "type": "SObjectType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 493
+            },
+            "modifiers": [],
+            "name": "obj",
+            "references": [],
+            "type": "SObject"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 498
+            },
+            "modifiers": [],
+            "name": "fieldNames",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 499
+            },
+            "modifiers": [],
+            "name": "field",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 512
+            },
+            "modifiers": [],
+            "name": "soql",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 513
+            },
+            "modifiers": [],
+            "name": "records",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 520
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 529
+            },
+            "modifiers": [],
+            "name": "sosl",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 531
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}
