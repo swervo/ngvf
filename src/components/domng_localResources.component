@@ -6,5 +6,6 @@
 
     <!-- APP FILES -->
     <script type="text/javascript" src="https://localhost:8000/resources/app/app.js"/>
+    <script type="text/javascript" src="https://localhost:8000/resources/app/app.controller.js"/>
 
 </apex:component>

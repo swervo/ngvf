@@ -25,9 +25,9 @@ docType="html-5.0"
 
     <div>Hello</div>
 
-    <div ng-app="domng" class="container-fluid ui-view-container">
+    <div ng-app="domng" class="ui-view-container">
         <div class="ui-view" id="master-ui-view">Main content {{1 + 2}}</div>
-        <a href="#/apex/first">clickme</a>
+        <a href="#/home">clickme</a>
         <div>why is this still here?</div>
     </div>
 
