@@ -1,5 +1,6 @@
 var ThisApp = angular.module('domng', [
-    'ui.router'
+    'ui.router',
+    'ngForce'
 ])
 
 .run(function() {

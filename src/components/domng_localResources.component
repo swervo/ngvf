@@ -1,8 +1,12 @@
 <apex:component >
 
-<!-- ANGULAR -->
+    <!-- ANGULAR -->
     <script type="text/javascript" src="https://localhost:8000/resources/lib/angular/angular.js"/>
     <script type="text/javascript" src="https://localhost:8000/resources/lib/angular-ui-router/release/angular-ui-router.js"/>
+
+    <!-- THIRD PARTY ANGULAR MODULES -->
+    <script type="text/javascript" src="https://localhost:8000/resources/app/ngforce/ngForceWithDependencies.min.js"/>
+
 
     <!-- APP FILES -->
     <script type="text/javascript" src="https://localhost:8000/resources/app/app.js"/>

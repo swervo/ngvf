@@ -23,6 +23,10 @@ docType="html-5.0"
 
     <c:domngapp />
 
+    <c:domngforce />
+
+    <script src="{!URLFOR($Page.domng_config)}"></script>
+
     <div>Hello</div>
 
     <div ng-app="domng" class="ui-view-container">
