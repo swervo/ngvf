@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ApexComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+<ApexPage xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>35.0</apiVersion>
-    <label>domngforce</label>
+    <availableInTouch>false</availableInTouch>
+    <confirmationTokenRequired>false</confirmationTokenRequired>
+    <label>domng_home</label>
     <packageVersions>
         <majorNumber>1</majorNumber>
         <minorNumber>45</minorNumber>
@@ -27,4 +29,4 @@
         <minorNumber>6</minorNumber>
         <namespace>sf_com_apps</namespace>
     </packageVersions>
-</ApexComponent>
+</ApexPage>

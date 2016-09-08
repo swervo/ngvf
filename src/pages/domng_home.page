@@ -1,0 +1,10 @@
+<apex:page showHeader="false"
+sidebar="false"
+standardStylesheets="false"
+applybodytag="false"
+docType="html-5.0"
+>
+    <h1>Home view</h1>
+    <div class="ui-view" id="home-ui-view"></div>
+
+</apex:page>

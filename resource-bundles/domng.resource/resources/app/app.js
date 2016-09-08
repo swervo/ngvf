@@ -1,6 +1,7 @@
 var ThisApp = angular.module('domng', [
     'ui.router',
-    'ngForce'
+    'ngForce',
+    'home'
 ])
 
 .run(function() {
@@ -8,15 +9,18 @@ var ThisApp = angular.module('domng', [
 })
 
 .config(function($stateProvider, $urlRouterProvider, $logProvider) {
-    debugger;
+    // debugger;
     $logProvider.debugEnabled(window.debug);
 
     $stateProvider
         .state('app', {
-            url: '/home',
-            templateUrl: '/apex/skymedia_nav',
-            // abstract: true,
-            controller: 'appCtrl'
+            url: '/app',
+            template: '<ui-view/>',
+            abstract: true,
+            controller: 'appCtrl',
+            onEnter: function() {
+                console.log('enter app');
+            }
         });
     // $urlRouterProvider.when('', '/home');
 
