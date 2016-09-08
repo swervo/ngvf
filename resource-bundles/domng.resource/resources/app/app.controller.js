@@ -5,7 +5,6 @@ angular.module('domng')
     '$scope',
 
     function($rootScope, $scope) {
-        debugger;
-        $scope.version = 5;
+
     }
 ]);

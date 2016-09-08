@@ -5,6 +5,11 @@ applybodytag="false"
 docType="html-5.0"
 >
     <h1>Home view</h1>
-    <div class="ui-view" id="home-ui-view"></div>
+    <div class="ui-view" id="home-ui-view">{{version}}</div>
+    <ul>
+        <li ng-repeat="acct in accounts">
+            Account Name: {{acct.Name}}
+        </li>
+    </ul>
 
 </apex:page>

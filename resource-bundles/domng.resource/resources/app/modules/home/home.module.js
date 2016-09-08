@@ -1,11 +1,10 @@
 
-angular.module('home', [])
+angular.module('home', ['ngForce'])
 
     .config(function ($stateProvider, $urlRouterProvider) {
         $stateProvider
             .state('app.home', {
                 url: '/home',
-                // template: '<div>This is home</div>',
                 templateUrl: 'apex/domng_home',
                 controller: 'homeCtrl',
                 onEnter: function() {

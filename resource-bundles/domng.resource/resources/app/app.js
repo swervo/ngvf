@@ -4,6 +4,8 @@ var ThisApp = angular.module('domng', [
     'home'
 ])
 
+.constant('Version', '0.1')
+
 .run(function() {
 
 })
